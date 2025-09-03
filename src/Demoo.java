@@ -1,14 +1,14 @@
- class Student{
+ class Dog{
     String name;
-    int age;
-    String address;
+
+    public void eat(){
+        System.out.println(name + " eat");
+    }
 }
 public class Demoo {
     public static void main(String[] args) {
-        Student s1 = new Student();
+        Dog s1 = new Dog();
         s1.name="Himanshu";
-        System.out.println(s1.name);
-        s1.name = "manish";
-        System.out.println(s1.name);
+       s1.eat();
     }
 }
