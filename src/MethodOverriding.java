@@ -18,9 +18,6 @@ class  ICICI extends Bank{
     }
 }
 
-
-
-
 public class MethodOverriding {
     public static void main(String[] args) {
         SBI s = new SBI();
